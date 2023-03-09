@@ -1,7 +1,6 @@
 # Первая работа
 ```@startuml "Практическая работа 1"
 left to right direction
-skinparam classBackgroundColor Wheat|CornflowerBlue
 skinparam backgroundcolor AntiqueWhite/Gold
 rectangle Касса {
 Покупатель -- (Покупает товары)
