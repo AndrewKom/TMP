@@ -36,7 +36,7 @@ rectangle Система {
 }
 @enduml
 ```
-
+![alt text](https://github.com/AndrewKom/TMP/blob/main/1.png)
 
 ```
 @startuml
@@ -82,3 +82,4 @@ class ВремяЗадания{
 Задание..>ВремяЗадания
 @enduml
 ```
+![alt text](https://github.com/AndrewKom/TMP/blob/main/2.png)
