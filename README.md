@@ -1,4 +1,4 @@
-# Первая работа
+# Нулевая работа
 ```@startuml "Практическая работа 1"
 left to right direction
 skinparam backgroundcolor AntiqueWhite/Gold
