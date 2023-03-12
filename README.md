@@ -1,6 +1,6 @@
 # Нулевая работа
 ```
-@startuml "Практическая работа 1"
+@startuml "Практическая работа 0"
 left to right direction
 skinparam backgroundcolor AntiqueWhite/Gold
 rectangle Касса {
