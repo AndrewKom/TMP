@@ -17,7 +17,7 @@ rectangle Касса {
 }
 @enduml
 ```
-![alt text](https://github.com/AndrewKom/TMP/blob/main/0.png)
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/0.png)
 
 # Первая практическая работа "Система учета рабочего времени"
 ```
@@ -37,7 +37,7 @@ rectangle Система {
 }
 @enduml
 ```
-![alt text](https://github.com/AndrewKom/TMP/blob/main/1.png)
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/1.png)
 
 ```
 @startuml
@@ -83,4 +83,43 @@ class ВремяЗадания{
 Задание..>ВремяЗадания
 @enduml
 ```
-![alt text](https://github.com/AndrewKom/TMP/blob/main/2.png)
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/2.png)
+
+
+# Третья практическая работа: Диаграмма последовательности и развертывания
+```
+@startuml "Практическая работа 2"
+title Система учета рабочего времени: диаграмма последовательности
+skinparam backgroundcolor AntiqueWhite/Gold
+participant Руководитель
+participant Задание
+participant Исполнитель
+participant Таймер
+activate Руководитель
+
+Руководитель -> Задание: Описывает задание
+activate Задание
+Руководитель -> Исполнитель: Выдает задание
+deactivate Руководитель
+activate Исполнитель
+Исполнитель -> Таймер:Включает таймер для отслеживания времени
+activate Таймер
+Исполнитель -> Задание:Приступает к выполнению
+Исполнитель -> Задание:Выполняет задание
+deactivate Задание
+Исполнитель -> Таймер:Закрепляет время выполнения
+deactivate Таймер
+Исполнитель -> Руководитель:Сообщает о выполнении задания
+deactivate Исполнитель
+activate Руководитель
+Руководитель -> Задание:Проверка качества выполнения
+activate Задание
+Задание -> Руководитель:Корректное выполнение задания
+Руководитель -> Задание:Принимает задание
+deactivate Руководитель
+deactivate Задание
+
+@enduml
+```
+
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work2.png)
