@@ -17,7 +17,7 @@ rectangle Касса {
 }
 @enduml
 ```
-![alt text](https://github.com/AndrewKom/TMP/blob/main/0.png)
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/0.png)
 
 # Первая практическая работа "Система учета рабочего времени"
 ```
@@ -37,7 +37,7 @@ rectangle Система {
 }
 @enduml
 ```
-![alt text](https://github.com/AndrewKom/TMP/blob/main/1.png)
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/1.png)
 
 ```
 @startuml
@@ -83,7 +83,7 @@ class ВремяЗадания{
 Задание..>ВремяЗадания
 @enduml
 ```
-![alt text](https://github.com/AndrewKom/TMP/blob/main/2.png)
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/2.png)
 
 
 # Третья практическая работа: Диаграмма последовательности и развертывания
@@ -122,4 +122,4 @@ deactivate Задание
 @enduml
 ```
 
-![alt text](https://github.com/AndrewKom/TMP/blob/main/work2.png)
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work2.png)
