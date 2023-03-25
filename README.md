@@ -17,7 +17,7 @@ rectangle Касса {
 }
 @enduml
 ```
-
+![alt text](https://github.com/AndrewKom/TMP/blob/main/0.png)
 
 # Первая практическая работа "Система учета рабочего времени"
 ```
