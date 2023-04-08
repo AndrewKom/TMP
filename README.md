@@ -143,3 +143,7 @@ node Система_контроля
 @enduml
 ```
 ![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work2.2.png)
+
+# Практическая работа 3: Strategy and Template Method
+Strategy: https://github.com/AndrewKom/TMPStrategy
+Template Method: 
