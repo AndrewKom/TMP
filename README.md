@@ -146,4 +146,4 @@ node Система_контроля
 
 # Практическая работа 3: Strategy and Template Method
 Strategy: https://github.com/AndrewKom/TMPStrategy
-Template Method: 
+Template Method: https://github.com/AndrewKom/TMPTemplate_Method/tree/main
