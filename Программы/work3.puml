@@ -49,3 +49,51 @@ RussianFlag -  Ger
 (RussianFlag, Ger) - colors:Задает цвет
 
 @enduml
+
+
+
+@startuml
+title Пратическая работа 3: Strategy
+class Variant{
+selection()
+}
+class Game{
+strategy: Variant
+init()
+play()
+}
+
+class Paper{
+selection()
+}
+class Rock{
+selection()
+}
+class Chic{
+selection()
+}
+class Spok{
+selection()
+}
+class Zemnovodnoe{
+selection()
+}
+class main{
+int n
+str vibor
+playtime()
+player1.play(player2)
+}
+note right of main::"playtime()"
+player1 = playtime(vibor)
+player2 = playtime(vibor)
+end note
+
+Paper --> Variant
+Rock --> Variant
+Chic --> Variant
+Spok --> Variant
+Zemnovodnoe --> Variant
+main *--> Variant
+main --Game
+@enduml
