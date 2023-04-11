@@ -1,0 +1,51 @@
+@startuml
+title Пратическая работа 3: Template Method
+class Algorithm{
+template_method()
+flagstock()
+draw_1()
+draw_2()
+draw_3()
+final()
+printer()
+}
+note right of Algorithm::"template_method()"
+self.flagstock()
+self.draw_1()
+self.draw_2()
+self.draw_3()
+self.final()
+self.printer()
+end note
+
+class colors{
+painwhite()
+painred()
+painblue()
+painblack()
+painyel()
+}
+
+class RussianFlag{
+z = colors
+z.pain
+draw_1()
+draw_2()
+draw_3()
+final()
+}
+class  Ger{
+z = colors
+z.pain
+draw_1()
+draw_2()
+draw_3()
+}
+
+Algorithm <|-- Ger :Немецкий флаг
+Algorithm <|-- RussianFlag : Российский флаг
+
+RussianFlag -  Ger
+(RussianFlag, Ger) - colors:Задает цвет
+
+@enduml
