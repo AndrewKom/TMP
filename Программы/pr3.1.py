@@ -119,6 +119,7 @@ def playtime(vibor):
     elif vibor == "Рандом":
         return Game(Random())
 
+
 n=1
 while n==1:
     print("Первый игрок:\nСделайте выбор: Бумага, Камень, Ножницы, Спок, Ящерица, Рандом")
