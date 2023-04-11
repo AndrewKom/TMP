@@ -86,7 +86,7 @@ class ВремяЗадания{
 ![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/2.png)
 
 
-# Третья практическая работа: Диаграмма последовательности и развертывания
+# Вторая практическая работа: Диаграмма последовательности и развертывания
 ```
 @startuml "Практическая работа 2"
 title Система учета рабочего времени: диаграмма последовательности
@@ -123,3 +123,28 @@ deactivate Задание
 ```
 
 ![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work2.png)
+
+```
+@startuml "Практическая работа 2.2"
+left to right direction
+title Система учета рабочего времени: диаграмма развертывания
+skinparam backgroundcolor AntiqueWhite/Gold
+database Задания
+node ПК_Исполнитель
+node ПК_Руководитель
+node Таймер
+node Система_контроля
+
+ПК_Исполнитель - Задания: Выполняют
+ПК_Руководитель - Задания: Выдают
+ПК_Исполнитель - Таймер: Используют
+ПК_Руководитель - Система_контроля: Проверка выполнения задания
+Система_контроля - Задания
+@enduml
+```
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work2.2.png)
+
+# Практическая работа 3: Strategy and Template Method
+Strategy: https://github.com/AndrewKom/TMPStrategy
+
+Template Method: https://github.com/AndrewKom/TMPTemplate_Method/tree/main
