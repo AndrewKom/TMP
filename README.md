@@ -148,3 +148,5 @@ node Система_контроля
 Strategy: https://github.com/AndrewKom/TMPStrategy
 
 Template Method: https://github.com/AndrewKom/TMPTemplate_Method/tree/main
+
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work3.1.png)
