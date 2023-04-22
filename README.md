@@ -152,3 +152,12 @@ Strategy: https://github.com/AndrewKom/TMPStrategy
 Template Method: https://github.com/AndrewKom/TMPTemplate_Method/tree/main
 
 ![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work3.1.png)
+
+
+
+# Практическая работа 4: Iterator pattern and Visitor
+Iterator pattern: https://github.com/AndrewKom/TMP/blob/main/Программы/pr4.1.py
+
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work4.1.png)
+
+Visitor:
