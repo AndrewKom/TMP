@@ -1,0 +1,36 @@
+@startuml
+title Пратическая работа 4: Iterator pattern
+class main{
+cookies = cookiesAggregate(5)
+iterator = cookies.iterator()
+}
+
+
+class cookiesAggregate{
+iterator()
+amount_num()
+}
+
+class cookiesnumIterator{
+init()
+next(self)
+has_next(self)
+}
+class  Iterator{
+next(self)
+has_next(self)
+}
+
+main <- cookiesAggregate
+main ..>Iterator:<<create>>
+cookiesnumIterator <.. cookiesAggregate: <<create>>
+cookiesnumIterator o-- cookiesAggregate
+cookiesnumIterator --> Iterator
+
+note right of cookiesAggregate::"iterator()"
+return cookiesnumIterator(self.num)
+end note
+
+@enduml
+
+
