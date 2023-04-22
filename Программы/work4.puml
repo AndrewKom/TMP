@@ -34,3 +34,66 @@ end note
 @enduml
 
 
+
+
+
+
+
+
+@startuml
+title Пратическая работа 4: Visitor
+
+class OrderItemVisitor{
+<<interface>>
+visit(self, item)
+}
+
+
+class ItemElement{
+<<interface>>
+accept(self, visitor: OrderItemVisitor)
+}
+
+class Tort{
+init()
+get_price(self)
+accept(self, visitor: OrderItemVisitor)
+}
+class  Coffee{
+init()
+get_price(self)
+accept(self, visitor: OrderItemVisitor)
+}
+class WithOutDiscountVisitor{
+visit(self, item: ItemElement)
+}
+
+class OnlyTortDiscountVisitor{
+visit(self, item: ItemElement)
+}
+
+class OnlyCoffeeDiscountVisitor{
+visit(self, item: ItemElement)
+}
+
+class AllDiscountVisitor{
+visit(self, item: ItemElement)
+}
+
+AllDiscountVisitor..>OrderItemVisitor
+WithOutDiscountVisitor..>OrderItemVisitor
+OnlyTortDiscountVisitor..>OrderItemVisitor
+OnlyCoffeeDiscountVisitor..>OrderItemVisitor
+
+OrderItemVisitor..>Tort
+OrderItemVisitor..>Coffee
+
+ItemElement..>OrderItemVisitor
+Tort..>ItemElement
+Coffee ..>ItemElement
+
+
+
+
+@enduml
+
