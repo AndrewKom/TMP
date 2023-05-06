@@ -163,3 +163,14 @@ Iterator pattern: https://github.com/AndrewKom/TMP/blob/main/Программы/
 Visitor:https://github.com/AndrewKom/TMP/blob/main/Программы/pr4.2.py
 
 ![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work4.2.png)
+
+# Практическая работа 5: Abstract Factory and Builder and Adapter and Intermediary
+
+Abstract Factory:
+
+Builder:
+
+Adapter:
+
+Intermediary:
+
