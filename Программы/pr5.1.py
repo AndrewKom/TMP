@@ -21,7 +21,7 @@ class ModernLegs(Legs):
         super().__init__("Современный")
 
     def create(self):
-        print(f'Созданный ножки для стола: {self._object}')
+        print(f'Созданы ножки для стола: {self._object}')
 
 
 class ModernCap(Cap):
@@ -38,7 +38,7 @@ class VenLegs(Legs):
         super().__init__("Венецианский")
 
     def create(self):
-        print(f'Созданный ножки для стола:{self._object}')
+        print(f'Созданы ножки для стола: {self._object}')
 
 
 class VenCap(Cap):
@@ -46,7 +46,7 @@ class VenCap(Cap):
         super().__init__("Венецианский")
 
     def create(self):
-        print(f'Создана крышка для стола:{self._object}')
+        print(f'Создана крышка для стола: {self._object}')
 
 
 
@@ -96,7 +96,15 @@ def create_factory(objectname: str) -> GuiAbstractTable:
     }
     return tabled[objectname]()
 
+
+
 objectname = "Современный"
+cr = create_factory(objectname)
+app = Application(cr)
+app.create_gui()
+
+
+objectname = "Венецианский"
 cr = create_factory(objectname)
 app = Application(cr)
 app.create_gui()
