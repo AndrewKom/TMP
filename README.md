@@ -160,4 +160,6 @@ Iterator pattern: https://github.com/AndrewKom/TMP/blob/main/Программы/
 
 ![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work4.1.png)
 
-Visitor:
+Visitor:https://github.com/AndrewKom/TMP/blob/main/Программы/pr4.2.py
+
+![alt text](https://github.com/AndrewKom/TMP/blob/main/Фото/work4.2.png)
