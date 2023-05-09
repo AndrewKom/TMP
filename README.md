@@ -166,7 +166,7 @@ Visitor:https://github.com/AndrewKom/TMP/blob/main/Программы/pr4.2.py
 
 # Практическая работа 5: Abstract Factory and Builder and Adapter and Intermediary
 
-Abstract Factory:
+Abstract Factory: https://github.com/AndrewKom/TMP/blob/main/Программы/pr5.1.py
 
 Builder:
 
