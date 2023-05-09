@@ -170,7 +170,7 @@ Abstract Factory: https://github.com/AndrewKom/TMP/blob/main/Программы/
 
 Builder:
 
-Adapter:
+Adapter: https://github.com/AndrewKom/TMP/blob/main/Программы/5.3.py
 
 Intermediary:
 
