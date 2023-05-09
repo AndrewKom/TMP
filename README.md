@@ -172,5 +172,5 @@ Builder:
 
 Adapter: https://github.com/AndrewKom/TMP/blob/main/Программы/5.3.py
 
-Intermediary:
+Mediator: https://github.com/AndrewKom/TMP/blob/main/Программы/pr5.4.py
 
