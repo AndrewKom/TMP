@@ -176,7 +176,7 @@ Mediator: https://github.com/AndrewKom/TMP/blob/main/Программы/pr5.4.py
 
 # Практическая работа 6: Inversion of control, Proxy, Composite
 
-Inversion of control: 
+Inversion of control: https://github.com/AndrewKom/TMP/tree/main/Программы/Практика%206
 
 Proxy: https://github.com/AndrewKom/TMP/blob/main/Программы/pr6.2.py
 
