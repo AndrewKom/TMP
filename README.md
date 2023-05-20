@@ -168,9 +168,19 @@ Visitor:https://github.com/AndrewKom/TMP/blob/main/Программы/pr4.2.py
 
 Abstract Factory: https://github.com/AndrewKom/TMP/blob/main/Программы/pr5.1.py
 
-Builder:
+Builder:https://github.com/AndrewKom/TMP/blob/main/Программы/pr5.2.py
 
 Adapter: https://github.com/AndrewKom/TMP/blob/main/Программы/5.3.py
 
 Mediator: https://github.com/AndrewKom/TMP/blob/main/Программы/pr5.4.py
+
+# Практическая работа 6: Inversion of control, Proxy, Composite
+
+Inversion of control: 
+
+Proxy:
+
+Composite:
+
+
 
