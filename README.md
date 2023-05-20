@@ -174,3 +174,13 @@ Adapter: https://github.com/AndrewKom/TMP/blob/main/Программы/5.3.py
 
 Mediator: https://github.com/AndrewKom/TMP/blob/main/Программы/pr5.4.py
 
+# Практическая работа 6: Inversion of control, Proxy, Composite
+
+Inversion of control: 
+
+Proxy:
+
+Composite:
+
+
+
