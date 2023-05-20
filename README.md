@@ -180,7 +180,7 @@ Inversion of control:
 
 Proxy:
 
-Composite:
+Composite: https://github.com/AndrewKom/TMP/blob/main/Программы/pr6.3.py
 
 
 
