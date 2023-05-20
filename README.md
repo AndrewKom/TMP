@@ -178,7 +178,7 @@ Mediator: https://github.com/AndrewKom/TMP/blob/main/Программы/pr5.4.py
 
 Inversion of control: 
 
-Proxy:
+Proxy: https://github.com/AndrewKom/TMP/blob/main/Программы/pr6.2.py
 
 Composite: https://github.com/AndrewKom/TMP/blob/main/Программы/pr6.3.py
 
